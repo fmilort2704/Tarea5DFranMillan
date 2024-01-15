@@ -14,5 +14,17 @@ public class Catalogos {
     private String categoria;
     private int notaCritica;
     private int duracionMinutos;
+
+    public Catalogos(String titulo, String director, String categoria, int notaCritica, int duracionMinutos) {
+        this.titulo = titulo;
+        this.director = director;
+        this.categoria = categoria;
+        this.notaCritica = notaCritica;
+        this.duracionMinutos = duracionMinutos;
+    }
+
+    public Catalogos() {
+    }
+    
     
 }
