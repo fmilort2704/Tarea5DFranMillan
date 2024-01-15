@@ -65,6 +65,19 @@ public class Catalogos {
     public void setDuracionMinutos(int duracionMinutos) {
         this.duracionMinutos = duracionMinutos;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Catalogos{");
+        sb.append("titulo=").append(titulo);
+        sb.append(", director=").append(director);
+        sb.append(", categoria=").append(categoria);
+        sb.append(", notaCritica=").append(notaCritica);
+        sb.append(", duracionMinutos=").append(duracionMinutos);
+        sb.append('}');
+        return sb.toString();
+    }
     
     
 }
