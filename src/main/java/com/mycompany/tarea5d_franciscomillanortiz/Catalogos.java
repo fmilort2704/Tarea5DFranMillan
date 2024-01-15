@@ -24,7 +24,5 @@ public class Catalogos {
     }
 
     public Catalogos() {
-    }
-    
-    
+    } 
 }
